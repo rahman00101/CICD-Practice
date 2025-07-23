@@ -20,7 +20,7 @@ phases:
             - echo "we are in the post build phase"
 
 artifacts:
-    file:
+    files:
       - '**/*'
     name: webapp-artifacts
             
